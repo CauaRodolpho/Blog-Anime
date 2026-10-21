@@ -1,0 +1,46 @@
+
+
+<div class="min-h-screen bg-slate-950 text-slate-100 font-sans pb-12">
+
+  <!-- 1. HEADER (Cabeçalho Fixo/Topo) -->
+  <header class="w-full border-b border-slate-800 bg-slate-900/90 backdrop-blur-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3">
+      <app-menu-bar></app-menu-bar>
+    </div>
+  </header>
+
+  <!-- CONTAINER PRINCIPAL -->
+  <main class="max-w-7xl mx-auto px-4 mt-8 flex flex-col gap-8">
+
+    <!-- 2. MENU-TITLE (Título/Banner da Seção) -->
+    <section class="w-full border-b border-slate-800 pb-4">
+      <app-menu-title></app-menu-title>
+    </section>
+
+    <!-- 3. GRID DE CONTEÚDO (BIG CARD + SMALL CARDS) -->
+    <section class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+
+      <!-- LADO ESQUERDO: BIG CARD (Ocupa 2 colunas no desktop) -->
+      <div class="lg:col-span-2">
+        <app-big-card></app-big-card>
+      </div>
+
+      <!-- LADO DIREITO: SMALL CARDS (Ocupa 1 coluna no desktop) -->
+      <aside class="flex flex-col gap-4">
+        <!-- Cards simples para evitar referências a um componente não importado. -->
+        <article class="rounded-lg border border-slate-800 bg-slate-900 p-4">
+          <h2 class="font-semibold">Artigo recente</h2>
+        </article>
+        <article class="rounded-lg border border-slate-800 bg-slate-900 p-4">
+          <h2 class="font-semibold">Artigo recente</h2>
+        </article>
+        <article class="rounded-lg border border-slate-800 bg-slate-900 p-4">
+          <h2 class="font-semibold">Artigo recente</h2>
+        </article>
+      </aside>
+
+    </section>
+
+  </main>
+
+</div>
