@@ -1,9 +1,18 @@
-
 # 🏮 Blog-Dio — Universo Anime
 
 Um projeto de blog responsivo focado na temática de animes, desenvolvido para praticar e aplicar os conceitos fundamentais do **Angular 17+** combinados com o **Tailwind CSS**. 
 
 Este projeto foi construído como parte de um desafio prático da **DIO (Digital Innovation One)** para a criação de um blog dinâmico e estilizado.
+
+🔗 **Demonstração Online:** [blog-anime-nine.vercel.app](https://blog-anime-nine.vercel.app/)
+
+---
+
+## 🖼️ Preview do Projeto
+
+![Preview do Blog Universo Anime](https://github.com/CauaRodolpho/Blog-Dio/blob/main/src/assets/preview.png?raw=true)
+
+> *Dica: Você pode salvar a imagem da tela como `preview.png` dentro de `src/assets/` no seu projeto e dar push para que ela apareça direto na página do repositório!*
 
 ---
 
