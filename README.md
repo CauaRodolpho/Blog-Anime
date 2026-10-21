@@ -10,7 +10,7 @@ Este projeto foi construído como parte de um desafio prático da **DIO (Digital
 
 ## 🖼️ Preview do Projeto
 
-![Preview do Blog Universo Anime](https://github.com/CauaRodolpho/Blog-Dio/blob/main/src/assets/preview.png?raw=true)
+![Preview do Blog Universo Anime](image/preview.jpg)
 
 > *Dica: Você pode salvar a imagem da tela como `preview.png` dentro de `src/assets/` no seu projeto e dar push para que ela apareça direto na página do repositório!*
 
