@@ -10,9 +10,7 @@ Este projeto foi construído como parte de um desafio prático da **DIO (Digital
 
 ## 🖼️ Preview do Projeto
 
-![Preview do Blog Universo Anime](image/preview.png)
-
-> *Dica: Você pode salvar a imagem da tela como `preview.png` dentro de `src/assets/` no seu projeto e dar push para que ela apareça direto na página do repositório!*
+![Preview do Blog Universo Anime](public/image/preview.png)
 
 ---
 
