@@ -1,59 +1,68 @@
-# BlogDio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.3.
+# 🏮 Blog-Dio — Universo Anime
 
-## Development server
+Um projeto de blog responsivo focado na temática de animes, desenvolvido para praticar e aplicar os conceitos fundamentais do **Angular 17+** combinados com o **Tailwind CSS**. 
 
-To start a local development server, run:
+Este projeto foi construído como parte de um desafio prático da **DIO (Digital Innovation One)** para a criação de um blog dinâmico e estilizado.
 
-```bash
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Angular 17+**: Componentes Standalone, Signal Inputs (`input()`), e roteamento.
+- **Tailwind CSS**: Estilização moderna, responsiva e com tema escuro (*dark mode*).
+- **TypeScript**: Tipagem estática para maior segurança no desenvolvimento.
+- **HTML5 & CSS3**: Estruturação semântica da aplicação.
+
+---
+
+## 🎨 Funcionalidades & Destaques
+
+- **Layout Responsivo**: Grid adaptável para telas mobile, tablet e desktop.
+- **Componentes Reutilizáveis**:
+  - `Header`: Barra de navegação *sticky* com efeito *glassmorphism* e hover animado.
+  - `MenuTitle`: Cabeçalho temático do blog ("Universo Anime") com divisores em gradiente.
+  - `BigCard`: Card principal em destaque com badge, imagem ampliada e transições suaves.
+  - `SmallCard`: Componente reutilizável via **Angular Signal Inputs** para exibir múltiplos artigos de forma dinâmica.
+  - `Footer`: Rodapé estruturado com links de navegação e informações do desenvolvedor.
+- **Design System Dark/Amber**: Estilização focada em tons escuros com destaques em dourado/amber.
+
+---
+
+## 🛠️ Como Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/CauaRodolpho/Blog-Dio.git](https://github.com/CauaRodolpho/Blog-Dio.git)
+Acesse a pasta do projeto:
+
+Bash
+cd Blog-Dio
+Instale as dependências:
+
+Bash
+npm install
+Inicie o servidor de desenvolvimento:
+
+Bash
 ng serve
-```
+Acesse no navegador:
+Navegue até http://localhost:4200/.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🎓 Aprendizados
+Durante o desenvolvimento deste desafio da DIO, foi possível consolidar:
 
-## Code scaffolding
+A utilização de Standalone Components sem a necessidade de NgModule.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Passagem de dados entre componentes usando a API moderna de Signals (input<string>()).
 
-```bash
-ng generate component component-name
-```
+Construção de layouts flexíveis usando CSS Grid e Flexbox com classes utilitárias do Tailwind CSS.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Organização e limpeza na estrutura de arquivos do projeto.
 
-```bash
-ng generate --help
-```
+👤 Desenvolvedor
+Desenvolvido por Cauã Rodolpho (Fênix Dev)
 
-## Building
+Estudante de Análise e Desenvolvimento de Sistemas — Uninter.
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+GitHub: @CauaRodolpho

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   imports: [],
@@ -6,4 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './small-card.css',
   templateUrl: './small-card.html',
 })
-export class SmallCard {}
+export class SmallCard {
+
+    title = input<string>();
+    description = input<string>();
+    imageUrl = input<string>();
+    date = input<string>();
+
+}
